@@ -10,7 +10,7 @@ return [
     'port' => 9501,
     'setting' => [
         'enable_static_handler' => true,
-        'document_root' => "/usr/share/nginx/html/Biny/web/static",
+        'document_root' => "/路径/swoole-biny/web/static",
         'worker_num' => 5,
     ]
 ];
