@@ -7,19 +7,19 @@ use swoole to expedite Biny
 
 (1)
 ```
-git clone https://github.com/ykabps1314/swoole-biny.git
+$ git clone https://github.com/ykabps1314/swoole-biny.git
 ```
 
 (2) 进入项目根目录执行
 ```
-php init
+$ php init
 ```
 
 (3) 进入server目录进行服务配置，修改swoole.config.php进行监控ip和端口的配置，以及swoole静态目录的指向配置；
 
 (4) 启动swoole服务
 ```
-php /你的路径/swoole-biny/server/HttpServer.php
+$ php /你的路径/swoole-biny/server/HttpServer.php
 ```
 当然正式使用还是使用nohup方式去执行；
 
@@ -75,5 +75,7 @@ server {
 
 但是一旦修改的文件比如框架配置文件或是依赖什么的就需要进行服务的重启，但是现实操作肯定不能直接取kill掉再重启swoole服务，所以此时提供了下面方式进行平滑重启；
 ```
-sh /路径/swoole-biny/server/reload.sh
+$ sh /路径/swoole-biny/server/reload.sh
 ```
+
+如有转载请署名来源！
