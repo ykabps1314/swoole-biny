@@ -19,7 +19,7 @@ $ php init
 
 (4) 启动swoole服务
 ```
-$ php /你的路径/swoole-biny/server/HttpServer.php
+$ php /路径/swoole-biny/server/HttpServer.php
 ```
 当然正式使用还是使用nohup方式去执行；
 
