@@ -1,12 +1,13 @@
 #!/usr/bin/env php
 <?php
 
-if(file_exists(__DIR__.'/logs')) {
+if(!file_exists(__DIR__.'/logs')) {
     mkdir(__DIR__.'/logs');
+    chmod(__DIR__.'/logs', 0777);
 }
 
-if(file_exists(__DIR__.'/logs/access')) {
+if(!file_exists(__DIR__.'/logs/access')) {
     mkdir(__DIR__.'/logs/access');
+    chmod(__DIR__.'/logs/access', 0777);
 }
 
-chmod(__DIR__.'/logs', 777);
