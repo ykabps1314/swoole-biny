@@ -3,6 +3,8 @@ use swoole to expedite Biny
 
 使用swoole配合nginx可以实现biny框架的加速；
 
+目前压测结果是比原来使用fpm提高1.5倍左右；
+
 用法：
 
 (1)
