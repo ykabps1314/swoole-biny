@@ -23,7 +23,7 @@ $ php init
 ```
 $ php /路径/swoole-biny/server/HttpServer.php
 ```
-当然正式使用还是使用nohup方式去执行；
+线上使用nohup方式去执行；
 
 (5) 配置nginx
 
