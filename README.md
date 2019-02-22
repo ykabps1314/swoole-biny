@@ -23,7 +23,7 @@ $ php init
 ```
 $ php /路径/swoole-biny/server/HttpServer.php
 ```
-线上使用nohup方式去执行；
+线上使用守护进程方式, 可以命令指定也可以配置swoole的配置项以守护进程运行；
 
 (5) 配置nginx
 
